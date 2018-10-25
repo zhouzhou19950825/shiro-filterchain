@@ -12,8 +12,8 @@ import javax.servlet.annotation.WebFilter;
 
 import org.springframework.stereotype.Component;
 
-@Component
-@WebFilter(urlPatterns = "/*", filterName = "authFilter")
+//@Component
+//@WebFilter(urlPatterns = "/*", filterName = "authFilter")
 public class UserFilter implements Filter{
 
 	@Override
